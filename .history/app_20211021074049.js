@@ -18,11 +18,6 @@ const result = document.querySelector('.lorem-text')
 
 form.addEventListener('submit', function(e) {
   e.preventDefault();
-  const value = parseInt(amount.value);
-  const random = Math.floor(Math.random() * text.length);
-  
-  // empty value
-  if (isNaN(value) || value < 0 || value > 9) {
-    result.innerHTML = `<p class="result">${text[random]}</p>`
-  }
+  const value = parseInt(amount.value;
+  console.log(value);
 });
